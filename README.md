@@ -23,6 +23,8 @@ Live interface to JACK MIDI synthesizers with audio capture and manipulation of 
 ##### muser.audio
 Audio file I/O and audio data manipulation.
 
+Llama
+
 ##### muser.live
 Live MIDI synthesizer interface with audio capture. The interface is pseudo-real-time due to Python's garbage collection; if these features are called upon in an application with large or frequent memory operations, JACK audio buffer under/overruns may result.
 - Classes to handle the CFFI MIDI and audio ringbuffers that JACK requires for real-time interfacing.
